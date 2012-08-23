@@ -1,0 +1,76 @@
+<!doctype html>
+<!-- Lukas Jirovsky, 23/8/2012, Campus Party Europe Berlin -->
+<html>
+  <head>
+    <title>Boilerplate Popup!</title>
+    <script src="/src/popup2.js"></script>
+    <script src="/src/jquery-min.js"></script>
+    <link href="/src/popup.css" rel="stylesheet"></link>
+  </head>
+  <body>
+    <h1>Google Analytics Tracking Cookie Reader</h1>
+    
+    <p id="no_cookie">
+    Not GA cookies found.<br />
+    Website probably does not use Google Analytics.
+    </p>
+    
+    <div id="yes_cookies"  style="display: none;">
+    
+    <hr />
+    <h2 id="ids">IDs</h2>
+    
+    <table>
+    <tr>
+    <td class="column_name">Website ID:</td>
+    <td class="column_value"><span id="utma_website_id"></span></td>
+    </tr>
+    <tr>
+    <td class="column_name">Your visitor ID:</td>
+    <td class="column_value"><span id="utma_visitor_id"></span></td>
+    </tr>
+    </table>
+    
+    <hr />
+    <h2 id="visits">Your visits</h2>
+    
+    <table>
+    <tr>
+    <td class="column_name">First visit:</td>
+    <td class="column_value"><span id="utma_ftime"></span></td>
+    </tr>
+    <tr>
+    <td class="column_name">Previous visit:</td>
+    <td class="column_value"><span id="utma_ltime"></span></td>
+    </tr>
+    <tr>
+    <td class="column_name">Current visit started:</td>
+    <td class="column_value"><span id="utma_ctime"></span></td>
+    </tr>
+    
+    <tr>
+    <td class="column_name">Visit #:</td>
+    <td class="column_value"><span id="utma_sessioncount"></span></td>
+    </tr>
+    
+    <tr>
+    <td class="column_name">Pageviews during visit:</td>
+    <td class="column_value"><span id="utmb_pageviews"></span></td>
+    </tr>
+    
+    </table>
+      <hr />
+    <h2 id="referal">How did you get here?</h2>
+    <p>
+    <span id="utmz4"></span>
+    </p>
+    
+      <hr />
+    
+    <h2 id="custom">Custom information saved by website</h2>
+    <p>
+    <span id="utmv">(None.)</span>
+    </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+html {
+  background: #FFF;
+  padding: 5px;
+}
+
+hr { color: white; background-color: white; border: 0px solid white; border-bottom: 1px solid #eeeeee;}
+body {
+  width: 300px; 
+  font-family: Arial, sans-serif;    
+}
+
+h1 {
+  margin: 0.2em 0;
+  margin-bottom: 5px; 
+  color: #0a0a0a;
+  font-size: 0.8em;  
+}
+
+h2 { font-size: 0.9em; margin-top: 5px; margin-bottom: 10px; }
+#ids { color: #264785; }
+#visits { color: #264785; }
+#referal { color: #264785;}
+#custom { color: #264785; }
+
+p { font-size: 0.8em; line-height: 120%; }
+
+table { font-size: 0.8em; width: 95%; }
+
+.column_name { font-weight: bold; }
+.column_value { }
